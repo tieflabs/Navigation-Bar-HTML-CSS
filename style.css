@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*Neumorphism web Design | ▱tieflab▰*/
+*{
+	margin: 0;
+}
+body{
+	height: 100vh;
+	background: linear-gradient(31deg, #0034ff, #01bbac);
+	display: flex;
+}
+section{
+    width: 90%;
+    height: 90%;
+    background: linear-gradient(60deg, #020915,#021315);
+    align-self: center;
+    transform: translateX(60px);
+    border-radius: 30px;
+    overflow: hidden;
+}
+header{
+	height: 70px;
+	width: 100%;
+	background: rgb(37 46 50);
+}
+h1{
+	position: absolute;
+	padding: 3px;
+	float: left;
+	margin-left: 2.2%;
+	margin-top: 10px;
+
+	font-size: 30px;
+	color: #fff;
+	font-weight: 900;
+	font-family: 'Poppins', sans-serif;
+	/*text-shadow: 1px 0px 1px solid #000;*/
+	
+}
+.logo{
+	color: #e4ac63;
+}
+ul{
+	width: auto;
+	float: right;
+	margin-right: 2%;
+	margin-top: 8px;
+}
+li{
+	display: inline-block;
+	padding: 15px 30px;
+}
+a{
+	text-align: center;
+	color: #fff;
+	font-size: 1.5vw;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+}
+a:hover,#active{
+	color: #e4ac63;
+	transition: 0.6s;
+}
+img{
+	width: 100%;
+	margin-top: -16px;
+}
